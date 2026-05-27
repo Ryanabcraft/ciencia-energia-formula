@@ -1,16 +1,46 @@
-# React + Vite
+# ⚡ EduEnergia: Domine o Consumo Elétrico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![EduEnergia Banner](https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1200&h=400)
 
-Currently, two official plugins are available:
+**EduEnergia** é uma plataforma educacional moderna e interativa projetada para ajudar estudantes do ensino fundamental e médio a compreenderem o consumo de energia elétrica de forma prática e visual.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
 
-## React Compiler
+- **Teoria Simplificada**: Explicações claras sobre o que é energia, potência (W/kW) e o conceito de kWh.
+- **Fórmulas Interativas**: Seção dedicada à fórmula principal `E = P × t` com destaques visuais.
+- **Tutorial Passo a Passo**: Guia visual para conversão de unidades e cálculos complexos.
+- **Calculadora de Consumo**: Ferramenta em tempo real para simular gastos de eletrodomésticos e custos mensais.
+- **Exercícios e Exemplos**: Questões resolvidas passo a passo e quiz interativo com feedback imediato e celebração (confetti 🎉).
+- **Design Moderno**: Interface responsiva, animações suaves com Framer Motion e suporte completo a Modo Escuro.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React 19**: Biblioteca principal para interface.
+- **Vite**: Build tool ultrarrápida.
+- **Tailwind CSS**: Estilização moderna e responsiva.
+- **Framer Motion**: Animações e transições suaves.
+- **Lucide React**: Ícones profissionais e consistentes.
+- **Canvas-Confetti**: Efeitos visuais para acertos nos exercícios.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como rodar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Ryanabcraft/ciencia-energia-formula.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+## 🌐 Deploy
+O site está publicado via GitHub Pages e pode ser acessado em:
+[https://Ryanabcraft.github.io/ciencia-energia-formula/](https://Ryanabcraft.github.io/ciencia-energia-formula/)
+
+---
+
+Desenvolvido para fins educacionais. 🇧🇷
